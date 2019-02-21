@@ -2,6 +2,8 @@ package problem02;
 
 public class Main {
 
+	private static int calculate;
+
 	public static void main(String[] args) {
 		String[] expressions = {"3 + 4", "12 * 4", "8 / 2", "10 - 2"};
 		
@@ -25,6 +27,7 @@ public class Main {
 	public static Arithmetic getInstance(String arith) {
 		
 		// 메소드 구현을 완성 하십시오.
+		calculate = Integer.parseInt(arith);
 		
 		return null;
 	}
