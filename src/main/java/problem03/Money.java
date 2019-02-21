@@ -11,9 +11,12 @@ public class Money {
 	public Money(int amount) {
 		
 		
+
 	}
 
 	public Money add(Money money) {
+		
+		Money two = money;
 		
 		
 		
